@@ -6,32 +6,117 @@
 body{
     background-color: #000000;
     color: #FFFFFF;
-
 }
 
 header{
-
+    height: 73px;
 }
+
+h1{
+ text-align:center;
+ color: #FFFFFF;
+ font-size: 50px;
+ font-family: 'Raleway', sans-serif; 
+ font-weight: 500;
+ width: 221px;
+ height: 59;
+ margin: 7px 529px 7px 530px;
+}
+
+
+/* div{
+    display: inline;
+} */
+
+#iguana{
+    /*esta es una propiedad de css*/
+    /*display: block;*/
+     /*width: 100vw; Establece el ancho al 100% del viewport width */
+    height: 727px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+
 .orden{
-
+ display: inline-block;
+ width: 1280px;
+ height: 348px;
 }
+
 
 #definición{
-
+ display: inline-block;
+ width: 475px;
+ height: 197px;
+ text-align:left;
+ color: #FFFFFF;
+ font-size: 16px;
+ font-family: 'Raleway', sans-serif; 
+ font-weight: 300;
+ opacity: 1;
+ margin: 76px 105px 75px 150px;
 }
 
-h2{
+#iguana1{
+    display: inline-block;
+    width: 399px;
+    height: 237px;
+    background: transparent;
+    /*margin: 45px 150px 66px 0px;*/
+}
 
+#iguana1{
+    display: inline-block;
+    width: 399px;
+    height: 237px;
+    background: transparent;
+    /*margin: 45px 150px 66px 0px;*/
+}
+#iguana1{
+    display: inline-block;
+    width: 399px;
+    height: 237px;
+    background: transparent;
+    /*margin: 45px 150px 66px 0px;*/
+}
+#iguana1{
+    display: inline-block;
+    width: 399px;
+    height: 237px;
+    background: transparent;
+    /*margin: 45px 150px 66px 0px;*/
+}
+
+
+h2{
+    text-align:left;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 500;
+    width: 221px;
+    height: 59;
+    margin: 75px 460px 0px 460px;
 }
 
 h3{
 
 }
 
+
 .gris{
     background-color: #1E1A13;
 }
 
 footer{
-    
+    text-align:left;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 300;
+    height: 60px;
+    padding: 39px 160px 0px 350px;
+    background-color: #1E1A13;
+    opacity: 1;
 }
