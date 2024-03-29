@@ -83,13 +83,13 @@ h2{
     padding: 0px 243px 0px 0px;
 }
 
-
+/*seccion con icono y h3*/
 .icons{
    display: inline-block;
     text-align: center;
-    margin: 0px px 0px 0px;
 }
 
+/*clase de icono*/
 .centro{
     padding: 50px 0px 16px 0px;
     font-size: 50px; 
@@ -126,3 +126,5 @@ footer{
     background-color: #1E1A13;
     opacity: 1;
 }
+
+/*fin css*/
