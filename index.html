@@ -9,23 +9,26 @@
     <!--aqui describir con informacion la pagina-->
     <meta name="author" content="yessenia millar" />
     <meta name="description" content="iguana page css" />
-     <meta name="keywords" content="" />  <!--indice o secciones -->
-     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="keywords" content="iguanas, descripcion, caracteristicas, imagenes, visita" />  <!--indice o secciones -->
+    <!-- mi enlace al kit de font awesome -->
+    <script src="https://kit.fontawesome.com/290d91d71b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <body>
     <header>
       <h1>IGUANAS</h1>
-    </header>
-       <section class="">
-       <!-- esto seria solo para darle estilo o contenerlo para un diseño.
-       la etiqueta img es para mostrar e incrustar img -->
+      <section>
+        <!-- esto seria solo para darle estilo o contenerlo para un diseño.
+        la etiqueta img es para mostrar e incrustar img -->
         <img src="/assets/img/bg-header.jpg" alt="iguana_grande" id="iguana"/>
-        </section> 
+      </section> 
+    </header>
+ 
     <main>
-      <section class="orden">
-        <p id="definición">
+      <section id="desc-section">
+        <p>
           La iguana es un reptil perteneciente a la familia Iguanadiae. Su
           tamaño está entre los 15 cm hasta los 2 metros de largo y puede llegar
           a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con
@@ -35,35 +38,39 @@
           herbívoras. Viven en lugares tropicales con mucha vegetación y es un
           animal que puede ser domesticado.
         </p>
-
         <img src="/assets/img/iguana-1.jpg" alt="iguana_uno" id="iguana1"/>
       </section>
 
       <!-- aqui el div ira arriba ordenara imagenes y no influira en el titulo??? -->
-      <section class="gris">
+      <section id="icons-section">
         <h2>CARACTERISTICAS</h2>
-
         <!-- 3 icono -->
-        <!-- como y donde buscar?? -->
-        <img src="" alt="ojo" />
-        <h3>Tercer ojo</h3>
+        <!-- buscados de font awesome -->
+        <section class="icons" id="ojo">
+          <i class="fa-regular fa-eye centro"></i>
+          <h3>Tercer ojo</h3>
+        </section> 
 
-        <img src="" alt="dos" />
-        <h3>Pacificas</h3>
+        <section class="icons" id="paz">
+          <i class="fa-regular fa-hand-peace fa-flip-horizontal centro"></i>
+          <h3>Pacificas</h3>
+        </section>
 
-        <img src="" alt="color" />
-        <h3>Cambian de color</h3>
-      </section>
+        <section class="icons" id="color">
+          <i class="fa-solid fa-paintbrush centro"></i>
+          <h3>Cambian de color</h3>
+        </section>
+      </section> 
 
-      <section class="orden">
+      <section id="imagenes">
         <!-- imagenes -->
         <img src="assets/img/iguana-2.jpg" alt="iguana 2" />
-        <img src="assets/img/iguana-3.jpg" alt="iguana-3" />
+        <img src="assets/img/iguana-3.jpg" alt="iguana-3" id="iguana-centro" />
         <img src="assets/img/iguana-4.jpg" alt="iguana-4" />
       </section>
     </main>
 
-   <footer >
+    <footer>
       Visita https://www.anipedia.net/iguanas/iguana-verde/ para conocer más.
     </footer>
   </body>
